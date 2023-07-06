@@ -1,0 +1,14 @@
+*, *::before,*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.grid{
+    width: 500px;
+    height:500px;
+    display: grid;
+    background: grey;
+    border: 2px solid red;
+    
+    
+}
