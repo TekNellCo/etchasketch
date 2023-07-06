@@ -3,7 +3,7 @@
 
 function populateBoard(size){
 
-    let color= 'black';
+    let color = 'black';
     let gridSize = size * size;
     let grid = document.querySelector('.grid');
 
@@ -27,12 +27,21 @@ for(let i = 0; i< gridSize; i++){
 
         let blue = document.querySelector('.blue');
             blue.addEventListener('click',()=>{
-            return  color = 'blue';});
+                return  color = 'blue';});
 
         let black = document.querySelector('.black');
             black.addEventListener('click',()=>{
                 return  color = 'black';});
-    
+
+        let orange = document.querySelector('.orange');
+            orange.addEventListener('click',()=>{
+                return  color = 'orange';});
+        let random = document.querySelector('.random');
+            random.addEventListener('click',()=>{
+                let r = Math.random() * 256;
+                let g = Math.random() * 256;
+                let b = Math.random() * 256;
+                     return color = `rgb(${r},${g},${b})`; });
 
         
         
