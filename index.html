@@ -7,25 +7,30 @@
     <title>Etch-A-Sketch</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body onload="populateBoard(16)">
+    <div class="main">
+        <h1 class="draw">Draw Something!</h1>
 
     <div class="buttonbox">
         <button class="blue"  >Blue</button>
         <button class="black">Black</button>
         <button class="orange">Orange</button>
-        <button class="random">Random</button>
-        <button class="rainbow">Rainbow</button>
+        <button class="random">Random<div class="rshadow">Random</div></button>
+        <button class="rainbow">Rainbow </button>
         <button class="reset">Reset</button>
+    </div>
         <input 
             type="range"
             min="2"
             max="100"
-            class="text" 
+            class="slider" 
             value="16" 
             onchange="changeSize(this.value)">
 
-    </div>
+    
          <div class="grid"></div>
+        </div>
 
        
 
