@@ -120,6 +120,11 @@
 .reset{
     box-shadow: 1px 1px 5px rgb(201, 201, 201);
     border:none;
+    transition: 0.1s;
+}
+.reset:hover{
+    color:pink;
+    transform: scale(1.1);
 }
 
 
