@@ -59,7 +59,7 @@
 }
 .orange{
     border: none;
-    box-shadow: 1px 1px 5px orange;
+    box-shadow: 1px 1px 5px;
     color:orange;
     transition: 0.1s;
 }
@@ -125,6 +125,23 @@
 .reset:hover{
     color:pink;
     transform: scale(1.1);
+    box-shadow:1px 1px 5px;
+}
+.erase{
+    border:none;
+    color: rgb(87, 205, 244);
+    transition: 0.1s;
+    box-shadow: 1px 1px 5px;
+    transition: 0.1s;
+}
+.erase:hover{
+    box-shadow:none;
+    background-color: rgb(128, 207, 234);
+    color:white;
+    transform: scale(1.1);
+
+
+
 }
 
 

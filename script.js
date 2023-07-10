@@ -41,6 +41,15 @@ function populateBoard(size){
                 let g = Math.random() * 256;
                 let b = Math.random() * 256;
                 return color = `rgb(${r},${g},${b})`; });
+    let erase = document.querySelector('.erase');
+            erase.addEventListener('click', () =>{
+                return color = 'grey';
+
+
+
+
+            });
+            
 
         
         
